@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{DBECC26A-D866-4797-A4C3-4B65964505A7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tesseract</RootNamespace>
+    <AssemblyName>Tesseract</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoHotkey.Interop">
+      <HintPath>..\..\dump\Dumps\AutoHotkey.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="OpenCvSharp" />
+    <Reference Include="OpenCvSharp.Extensions" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="psClick" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns0\Class1.cs" />
+    <Compile Include="ns0\Class10.cs" />
+    <Compile Include="ns0\Class11.cs" />
+    <Compile Include="ns0\Class13.cs" />
+    <Compile Include="ns0\Class16.cs" />
+    <Compile Include="ns0\Class17.cs" />
+    <Compile Include="ns0\Class18.cs" />
+    <Compile Include="ns0\Class2.cs" />
+    <Compile Include="ns0\Class20.cs" />
+    <Compile Include="ns0\Class23.cs" />
+    <Compile Include="ns0\Class24.cs" />
+    <Compile Include="ns0\Class26.cs" />
+    <Compile Include="ns0\Class3.Designer.cs">
+      <DependentUpon>Class3.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ns0\Class31.cs" />
+    <Compile Include="ns0\Class33.cs" />
+    <Compile Include="ns0\Class39.cs" />
+    <Compile Include="ns0\Class4.cs" />
+    <Compile Include="ns0\Class40.cs" />
+    <Compile Include="ns0\Class42.cs" />
+    <Compile Include="ns0\Class43.cs" />
+    <Compile Include="ns0\Class45.cs" />
+    <Compile Include="ns0\Class46.cs" />
+    <Compile Include="ns0\Class47.cs" />
+    <Compile Include="ns0\Class48.cs" />
+    <Compile Include="ns0\Class49.cs" />
+    <Compile Include="ns0\Class5.cs" />
+    <Compile Include="ns0\Class50.cs" />
+    <Compile Include="ns0\Class51.cs" />
+    <Compile Include="ns0\Class53.cs" />
+    <Compile Include="ns0\Class56.cs" />
+    <Compile Include="ns0\Class57.cs" />
+    <Compile Include="ns0\Class59.cs" />
+    <Compile Include="ns0\Class6.cs" />
+    <Compile Include="ns0\Class60.cs" />
+    <Compile Include="ns0\Class61.cs" />
+    <Compile Include="ns0\Class62.cs" />
+    <Compile Include="ns0\Class63.cs" />
+    <Compile Include="ns0\Class64.cs" />
+    <Compile Include="ns0\Class65.cs" />
+    <Compile Include="ns0\Class67.cs" />
+    <Compile Include="ns0\Class69.cs" />
+    <Compile Include="ns0\Class70.cs" />
+    <Compile Include="ns0\Class72.cs" />
+    <Compile Include="ns0\Class73.cs" />
+    <Compile Include="ns0\Class75.cs" />
+    <Compile Include="ns0\Class76.cs" />
+    <Compile Include="ns0\Class77.cs" />
+    <Compile Include="ns0\Class8.cs" />
+    <Compile Include="ns0\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FormDemorgan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FormDemorgan.Designer.cs">
+      <DependentUpon>FormDemorgan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FormMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FormMessage.Designer.cs">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FormMushroomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FormMushroomer.Designer.cs">
+      <DependentUpon>FormMushroomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FormSewing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FormSewing.Designer.cs">
+      <DependentUpon>FormSewing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\FormTaxi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns0\FormTaxi.Designer.cs">
+      <DependentUpon>FormTaxi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns0\GClass0.cs" />
+    <Compile Include="ns0\GClass1.cs" />
+    <Compile Include="ns0\GClass2.cs" />
+    <Compile Include="ns0\GClass3.cs" />
+    <Compile Include="ns0\GClass4.cs" />
+    <Compile Include="ns0\GEnum0.cs" />
+    <Compile Include="ns0\GEventArgs0.cs" />
+    <Compile Include="ns0\Interface0.cs" />
+    <Compile Include="ns1\FormActivate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormActivate.Designer.cs">
+      <DependentUpon>FormActivate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormAntiAfk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormAntiAfk.Designer.cs">
+      <DependentUpon>FormAntiAfk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormBuilder.Designer.cs">
+      <DependentUpon>FormBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormFarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormFarm.Designer.cs">
+      <DependentUpon>FormFarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormFishing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormFishing.Designer.cs">
+      <DependentUpon>FormFishing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormGym.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormGym.Designer.cs">
+      <DependentUpon>FormGym.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormLumberjack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormLumberjack.Designer.cs">
+      <DependentUpon>FormLumberjack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormMiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormMiner.Designer.cs">
+      <DependentUpon>FormMiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\FormVPN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\FormVPN.Designer.cs">
+      <DependentUpon>FormVPN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ns1\GForm0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ns1\GForm0.Designer.cs">
+      <DependentUpon>GForm0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="System\ComboBox.cs" />
+    <Compile Include="System\CommandButton.cs" />
+    <Compile Include="System\CursorHelper.cs" />
+    <Compile Include="System\FishContent.cs" />
+    <Compile Include="System\FormFishMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FormFishMain.Designer.cs">
+      <DependentUpon>FormFishMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\FormNews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FormNews.Designer.cs">
+      <DependentUpon>FormNews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\FormThiefAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\FormThiefAuto.Designer.cs">
+      <DependentUpon>FormThiefAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="System\IOleServiceProvider.cs" />
+    <Compile Include="System\PinkCheckBox.cs" />
+    <Compile Include="System\ScrollBar.cs" />
+    <Compile Include="System\ScrollHost.cs" />
+    <Compile Include="System\Slider.cs" />
+    <Compile Include="System\STAThread.cs" />
+    <Compile Include="System\TaskRunner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ns0\Class2.resources" />
+    <EmbeddedResource Include="ns0\Form1.resources" />
+    <EmbeddedResource Include="ns0\FormDemorgan.resources" />
+    <EmbeddedResource Include="ns0\FormMessage.resources" />
+    <EmbeddedResource Include="ns0\FormMushroomer.resources" />
+    <EmbeddedResource Include="ns0\FormSewing.resources" />
+    <EmbeddedResource Include="ns0\FormTaxi.resources" />
+    <EmbeddedResource Include="ns1\FormActivate.resources" />
+    <EmbeddedResource Include="ns1\FormAntiAfk.resources" />
+    <EmbeddedResource Include="ns1\FormBuilder.resources" />
+    <EmbeddedResource Include="ns1\FormFarm.resources" />
+    <EmbeddedResource Include="ns1\FormFishing.resources" />
+    <EmbeddedResource Include="ns1\FormGym.resources" />
+    <EmbeddedResource Include="ns1\FormLumberjack.resources" />
+    <EmbeddedResource Include="ns1\FormMiner.resources" />
+    <EmbeddedResource Include="ns1\FormSettings.resources" />
+    <EmbeddedResource Include="ns1\FormVPN.resources" />
+    <EmbeddedResource Include="System\FishContent.resources" />
+    <EmbeddedResource Include="System\FormFishMain.resources" />
+    <EmbeddedResource Include="System\FormNews.resources" />
+    <EmbeddedResource Include="System\FormThiefAuto.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ns0\Class3.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Class3.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
